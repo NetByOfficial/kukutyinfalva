@@ -98,6 +98,11 @@ p{
     
 }
 
-.hide{
-    display: none;
-}
+img{
+    float: center;
+    text-align: center;
+    display: block;
+    align-items: center;
+    margin: auto;
+    border-radius: 18px;
+} 
