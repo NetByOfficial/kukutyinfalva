@@ -1,68 +1,85 @@
-@font-face{
-    font-family: TW-Cen-MT-Condensed;
-    src: url(../FONTS/Tw\ Cen\ MT\ Condensed\ Bold.ttf);
-}
-@font-face{
-    font-family: Poppins-Light;
+@font-face {
+    font-family: 'TW-Cen-MT-Condensed';
+    src: url(../FONTS/Tw%20Cen%20MT%20Condensed%20Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: minecraft;
+    src: url(../FONTS/Minecraft.ttf);
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Light';
     src: url(../FONTS/Poppins/Poppins-Medium.ttf);
-}
-
-@font-face{
-    font-family: Poppins-Bold;
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Bold';
     src: url(../FONTS/Poppins/Poppins-Bold.ttf);
-}
-
-@font-face{
-    font-family: QuickSand-Light;
+  }
+  
+  @font-face {
+    font-family: 'QuickSand-Light';
     src: url(../FONTS/QuickSand/Quicksand-Light.ttf);
-}
-
-@font-face{
-    font-family: QuickSand-Bold;
+  }
+  
+  @font-face {
+    font-family: 'QuickSand-Bold';
     src: url(../FONTS/QuickSand/Quicksand-Medium.ttf);
-}
-
-@font-face{
+  }
+  
+  @font-face {
     font-family: BRUX;
     src: url(../FONTS/Brux-Font/BRUX.otf);
-}
-body{
-    font-family: 'TW-Cen-MT-Condensed';
+  }
+  
+  body {
+    font-family: minecraft;
     background-color: rgb(43, 43, 43);
     color: white;
     font-size: 0.5cm;
-}
-.web_name{
+  }
+  
+  .web_name {
     float: left;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.452);
-    border-radius: 10px;
-}
-
-.hirek{
-    float: center;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .web_name img{
+    float: left;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.452);
+    
+    margin-top: -2.3cm;
+    margin-left: 7.3cm;
+  }
+  
+  .hirek {
+    margin: 0 auto;
     text-align: center;
     padding-top: 5cm;
-}
-
-.hirek h1{
+  }
+  
+  .hirek h1 {
     background-color: black;
     border-radius: 15px;
-}
-
-.hirek h2{
+  }
+  
+  .hirek h2 {
     border-radius: 15px;
-}
-
-a{
+  }
+  
+  a {
     display: inline-block;
     position: relative;
     color: #fff;
     text-decoration: none;
-    
-}
-
-a::after{
+  }
+  
+  a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -71,38 +88,37 @@ a::after{
     bottom: 0;
     left: 0;
     background-color: #42f35a;
-    transition: transform .25s ease-out
-}
-a:hover{
-  color: white;
-  transform: scale(1, 1);
-  transition: transform 0.3s ease;
-}
-
-a:hover::after{
-    transform: scaleX(1)
-}
-
-p{
+    transition: transform .25s ease-out;
+  }
+  
+  a:hover {
+    color: white;
+    transform: scale(1, 1);
+    transition: transform 0.3s ease;
+  }
+  
+  a:hover::after {
+    transform: scaleX(1);
+  }
+  
+  p {
     font-size: 0.4cm;
     font-family: 'Poppins-Bold';
-}
-.kiemeles{
+  }
+  
+  .kiemeles {
     text-decoration: underline;
-
-}
-.vissza{
-    float: center;
+  }
+  
+  .vissza {
+    margin: 0 auto;
     text-align: center;
     font-size: 1cm;
-    
-}
-
-img{
-    float: center;
-    text-align: center;
+  }
+  
+  img {
+    margin: 0 auto;
     display: block;
-    align-items: center;
-    margin: auto;
     border-radius: 18px;
-} 
+  }
+  
